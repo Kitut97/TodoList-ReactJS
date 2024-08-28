@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #393646;
+}
+.todo-container {
+  margin: 20px;
+  font-family: "Poppins", sistem-ui;
+}
+
+.todo-container h1 {
+  font-size: 4em;
+  color: #6d5d6e;
+  font-style: italic;
+}
+
+.todo-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #333;
+}
+
+.todo-add-button {
+  padding: 10px 20px;
+  background-color: #666a6e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-add-button:hover {
+  background-color: #ced3d8;
+  color: #333;
+}
+
+.todo-list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f4eee0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.todo-item:hover {
+  background-color: #d9d6ce;
+}
+
+.todo-delete-button {
+  color: #6d5d6e;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1em;
+}
+
+.todo-delete-button:hover {
+  color: #4f4557;
+}
